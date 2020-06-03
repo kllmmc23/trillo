@@ -40,7 +40,7 @@ const Main = () => {
           <svg className="overview__icon-location">
             <use xlinkHref="img/sprite.svg#icon-location-pin" />
           </svg>
-          <button className="bt-inline">Albufeira, Portugal</button>
+          <button className="btn-inline">Albufeira, Portugal</button>
         </div>
 
         <div className="overview__rating">

@@ -1,8 +1,67 @@
-.hotel-view{
-    background-color: var(--color-white);
-    //testing here erase them later
-    background-color: red;
-    height: 80rem;
+.hotel-view {
+  background-color: var(--color-white);
+  //testing here erase them later
 
-    flex: 1;
+  flex: 1;
+}
+//----Gallery----//
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+//----------Hotel overview----//
+.overview {
+  display: flex;
+  align-items: center;
+      border-bottom: .1rem solid var(--color-grey-light-2);
+
+
+  &__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 1.5rem 3rem;
+
+  }
+
+  &__stars {
+    margin-right: auto;
+    display: flex;
+    
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+    &-average {
+    }
+
+    &-count {
+    }
+  }
+}
+//----------Buttons----//
+.btn-inline{
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;;
+  border-bottom: .1rem solid currentColor;
+
+  &:hover {
+    color: var(--color-grey-dark-1);
+  }
 }

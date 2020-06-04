@@ -143,6 +143,13 @@ const Main = () => {
           </button>
         </figure>
       </div>
+      <div className="cta">
+        <h2 className="cta__book-now">Good news we have 4 free rooms now!</h2>
+        <button className="btn">
+          <span className="btn__visible">Book now</span>
+          <span className="btn__invisible">Only 4 rooms left</span>
+        </button>
+      </div>
     </main>
   );
 };

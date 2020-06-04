@@ -76,14 +76,72 @@ const Main = () => {
               Lucy amd 3 other friend recommend this hotel
             </p>
             <div className="recommend__friends">
-              <img src="img/user-3.jpg" alt="user 3" className="recommend__photo" />
-              <img src="img/user-4.jpg" alt="user 4" className="recommend__photo" />
-              <img src="img/user-5.jpg" alt="user 5" className="recommend__photo" />
-              <img src="img/user-6.jpg" alt="user 6" className="recommend__photo" />
+              <img
+                src="img/user-3.jpg"
+                alt="user 3"
+                className="recommend__photo"
+              />
+              <img
+                src="img/user-4.jpg"
+                alt="user 4"
+                className="recommend__photo"
+              />
+              <img
+                src="img/user-5.jpg"
+                alt="user 5"
+                className="recommend__photo"
+              />
+              <img
+                src="img/user-6.jpg"
+                alt="user 6"
+                className="recommend__photo"
+              />
             </div>
           </div>
         </div>
-        <div className="user-reviews">User Reviews</div>
+
+        <figure className="user-reviews">
+          <figure className="review">
+            <blockquote className="review__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </blockquote>
+
+            <figcaption className="review__user">
+              <img
+                src="img/user-1.jpg"
+                alt="user 1"
+                className="review__photo"
+              />
+              <div className="review__user-box">
+                <p className="review__user-name">Nick Smith</p>
+                <p className="review__user-date">Feb 23rd, 2020</p>
+              </div>
+              <div className="review__rating">7.8</div>
+            </figcaption>
+          </figure>
+
+          <figure className="review">
+            <blockquote className="review__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </blockquote>
+
+            <figcaption className="review__user">
+              <img
+                src="img/user-2.jpg"
+                alt="user 1"
+                className="review__photo"
+              />
+              <div className="review__user-box">
+                <p className="review__user-name">Mary Thomas</p>
+                <p className="review__user-date">March 3rd, 2020</p>
+              </div>
+              <div className="review__rating">9.3</div>
+            </figcaption>
+          </figure>
+          <button className="btn-inline">
+            Show all<span>&rarr;</span>
+          </button>
+        </figure>
       </div>
     </main>
   );
